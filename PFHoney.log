@@ -1,0 +1,51 @@
+2022-04-25 23:47:09,173 - <ipython-input-1-92b014fa5c99>:61 - INFO: Server started ('127.0.0.1', 8002)
+2022-04-25 23:47:09,173 - <ipython-input-1-92b014fa5c99>:62 - INFO: Connect to ('127.0.0.1', 8002) to get the content of ('192.168.3.39', 80)
+2022-04-25 23:47:22,186 - <ipython-input-1-92b014fa5c99>:65 - INFO: [Establishing] ('127.0.0.1', 13569) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,211 - <ipython-input-1-92b014fa5c99>:69 - INFO: [OK] ('127.0.0.1', 13569) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13571) -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,212 - <ipython-input-1-92b014fa5c99>:65 - INFO: [Establishing] ('127.0.0.1', 13570) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,263 - <ipython-input-1-92b014fa5c99>:69 - INFO: [OK] ('127.0.0.1', 13570) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13572) -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,764 - <ipython-input-1-92b014fa5c99>:65 - INFO: [Establishing] ('127.0.0.1', 13573) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,782 - <ipython-input-1-92b014fa5c99>:69 - INFO: [OK] ('127.0.0.1', 13573) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13574) -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,784 - <ipython-input-1-92b014fa5c99>:65 - INFO: [Establishing] ('127.0.0.1', 13575) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,846 - <ipython-input-1-92b014fa5c99>:69 - INFO: [OK] ('127.0.0.1', 13575) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13578) -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,847 - <ipython-input-1-92b014fa5c99>:65 - INFO: [Establishing] ('127.0.0.1', 13576) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,878 - <ipython-input-1-92b014fa5c99>:69 - INFO: [OK] ('127.0.0.1', 13576) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13579) -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,880 - <ipython-input-1-92b014fa5c99>:65 - INFO: [Establishing] ('127.0.0.1', 13577) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:47:22,933 - <ipython-input-1-92b014fa5c99>:69 - INFO: [OK] ('127.0.0.1', 13577) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13580) -> ('192.168.3.39', 80)
+2022-04-25 23:51:33,908 - ngrok.py:242 - INFO: Opening tunnel named: http-8002-85241912-f8e3-4654-9637-15a411d7a9b3
+2022-04-25 23:51:34,461 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="no configuration paths supplied"
+2022-04-25 23:51:34,462 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="using configuration at default config path" path=C:\\Users\\Dean/.ngrok2/ngrok.yml
+2022-04-25 23:51:34,462 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="open config file" path=C:\\Users\\Dean\\.ngrok2\\ngrok.yml err=nil
+2022-04-25 23:51:34,464 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+2022-04-25 23:51:34,651 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="tunnel session started" obj=tunnels.session
+2022-04-25 23:51:34,651 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="client session established" obj=csess id=972d8098e5e5
+2022-04-25 23:51:34,658 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=start pg=/api/tunnels id=521fa291d69b6f87
+2022-04-25 23:51:34,661 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=end pg=/api/tunnels id=521fa291d69b6f87 status=200 dur=518.2µs
+2022-04-25 23:51:34,663 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=start pg=/api/tunnels id=2ab7b5bc5f3a0cd5
+2022-04-25 23:51:34,664 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=end pg=/api/tunnels id=2ab7b5bc5f3a0cd5 status=200 dur=516µs
+2022-04-25 23:51:34,664 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=start pg=/api/tunnels id=b8220aeb3c7ce289
+2022-04-25 23:51:34,783 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="started tunnel" obj=tunnels name="http-8002-85241912-f8e3-4654-9637-15a411d7a9b3 (http)" addr=http://localhost:8002 url=http://acc8-98-235-70-185.ngrok.io
+2022-04-25 23:51:34,785 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg="started tunnel" obj=tunnels name=http-8002-85241912-f8e3-4654-9637-15a411d7a9b3 addr=http://localhost:8002 url=https://acc8-98-235-70-185.ngrok.io
+2022-04-25 23:51:34,786 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=end pg=/api/tunnels id=b8220aeb3c7ce289 status=201 dur=118.9302ms
+2022-04-25 23:51:34,788 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=start pg="/api/tunnels/http-8002-85241912-f8e3-4654-9637-15a411d7a9b3 (http)" id=0335ccbdfea80f2c
+2022-04-25 23:51:34,788 - <ipython-input-2-6cc452da54ca>:62 - INFO: Server started ('127.0.0.1', 8002)
+2022-04-25 23:51:34,789 - process.py:106 - INFO: t=2022-04-25T23:51:34-0400 lvl=info msg=end pg="/api/tunnels/http-8002-85241912-f8e3-4654-9637-15a411d7a9b3 (http)" id=0335ccbdfea80f2c status=200 dur=0s
+2022-04-25 23:51:34,789 - <ipython-input-2-6cc452da54ca>:63 - INFO: Connect to ('127.0.0.1', 8002) to get the content of ('192.168.3.39', 80)
+2022-04-25 23:51:43,994 - <ipython-input-2-6cc452da54ca>:66 - INFO: [Establishing] ('127.0.0.1', 13651) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:51:43,994 - process.py:106 - INFO: t=2022-04-25T23:51:43-0400 lvl=info msg="join connections" obj=join id=74506227360c l=127.0.0.1:8002 r=98.235.70.185:13648
+2022-04-25 23:51:44,025 - <ipython-input-2-6cc452da54ca>:70 - INFO: [OK] ('127.0.0.1', 13651) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13652) -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,558 - <ipython-input-2-6cc452da54ca>:66 - INFO: [Establishing] ('127.0.0.1', 13662) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,559 - process.py:106 - INFO: t=2022-04-25T23:51:44-0400 lvl=info msg="join connections" obj=join id=c6bfb3c76c2f l=127.0.0.1:8002 r=98.235.70.185:13649
+2022-04-25 23:51:44,562 - <ipython-input-2-6cc452da54ca>:70 - INFO: [OK] ('127.0.0.1', 13662) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13663) -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,606 - <ipython-input-2-6cc452da54ca>:66 - INFO: [Establishing] ('127.0.0.1', 13664) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,607 - process.py:106 - INFO: t=2022-04-25T23:51:44-0400 lvl=info msg="join connections" obj=join id=265a5c96a79f l=127.0.0.1:8002 r=98.235.70.185:13653
+2022-04-25 23:51:44,608 - process.py:106 - INFO: t=2022-04-25T23:51:44-0400 lvl=info msg="join connections" obj=join id=cbdb7109c0f1 l=127.0.0.1:8002 r=98.235.70.185:13654
+2022-04-25 23:51:44,609 - process.py:106 - INFO: t=2022-04-25T23:51:44-0400 lvl=info msg="join connections" obj=join id=4924b78fa931 l=127.0.0.1:8002 r=98.235.70.185:13656
+2022-04-25 23:51:44,610 - process.py:106 - INFO: t=2022-04-25T23:51:44-0400 lvl=info msg="join connections" obj=join id=b5db54b42067 l=127.0.0.1:8002 r=98.235.70.185:13655
+2022-04-25 23:51:44,614 - <ipython-input-2-6cc452da54ca>:70 - INFO: [OK] ('127.0.0.1', 13664) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13668) -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,615 - <ipython-input-2-6cc452da54ca>:66 - INFO: [Establishing] ('127.0.0.1', 13665) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,620 - <ipython-input-2-6cc452da54ca>:70 - INFO: [OK] ('127.0.0.1', 13665) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13669) -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,622 - <ipython-input-2-6cc452da54ca>:66 - INFO: [Establishing] ('127.0.0.1', 13666) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,626 - <ipython-input-2-6cc452da54ca>:70 - INFO: [OK] ('127.0.0.1', 13666) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13670) -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,628 - <ipython-input-2-6cc452da54ca>:66 - INFO: [Establishing] ('127.0.0.1', 13667) -> ('127.0.0.1', 8002) -> ? -> ('192.168.3.39', 80)
+2022-04-25 23:51:44,636 - <ipython-input-2-6cc452da54ca>:70 - INFO: [OK] ('127.0.0.1', 13667) -> ('127.0.0.1', 8002) -> ('192.168.3.2', 13671) -> ('192.168.3.39', 80)
